@@ -1,5 +1,7 @@
-import { GoBell, GoCloudDownload, GoDatabase } from 'react-icons/go';
-import Button from '../components/Button';
+import { GoBell, GoDatabase } from "react-icons/go";
+import { GrCloudDownload } from "react-icons/gr";
+
+import Button from "../components/Button";
 
 function ButtonPage() {
   const handleClick = () => {};
@@ -19,8 +21,8 @@ function ButtonPage() {
         </Button>
       </div>
       <div>
-        <Button danger outline onMouseEnter={handleClick}>
-          <GoCloudDownload />
+        <Button outline danger  onMouseEnter={handleClick}>
+          <GrCloudDownload />
           Buy Now!
         </Button>
       </div>
